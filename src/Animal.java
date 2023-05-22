@@ -1,7 +1,7 @@
-public class Pessoa {
-    // Atributos String nome;
+public class Animal {
+    // Atributos
     String nome;
-    String sobrenome;
+    String raça;
     // Métodos comportamentos
     public void andar(){
         System.out.println("andou");
@@ -13,13 +13,6 @@ public class Pessoa {
     // Sobrecarga do método falar()
     public String falarr(String volume){
         return "falei" + volume;
-    }
-    // Construtor
-    Pessoa(){
-
-    }
-    Pessoa(String _nome){
-        this.nome = _nome;
     }
 
 }
